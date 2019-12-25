@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+
+    <modelVersion>4.0.0</modelVersion>
+    <groupId>cn.dendarii</groupId>
+    <artifactId>ivan</artifactId>
+    <version>0.1</version>
+
+    <packaging>pom</packaging>
+    <name>ivan</name>
+
+    <parent>
+        <groupId>org.springframework.boot</groupId>
+        <artifactId>spring-boot-starter-parent</artifactId>
+        <version>2.2.0.RELEASE</version>
+        <relativePath />
+    </parent>
+
+    <modules>
+        <module>ivan-2-springboot</module>
+        <module>ivan-3-springboot-mongo</module>
+        <module>ivan-4-poetry</module>
+    </modules>
+
+    <properties>
+        <java.version>1.8</java.version>
+        <javadoc.skip>true</javadoc.skip>
+        <javasrc.skip>true</javasrc.skip>
+        <gpg.skip>true</gpg.skip>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <guava.version>24.0-jre</guava.version>
+        <fastjson.version>1.2.46</fastjson.version>
+        <mysql.version>5.1.39</mysql.version>
+        <junit.version>4.12</junit.version>
+        <commons-collections4.version>4.4</commons-collections4.version>
+    </properties>
+
+    <repositories>
+        <repository>
+            <id>Project Repository</id>
+            <name>My Project Repository</name>
+            <url>file://${user.home}/.m2/repository</url>
+        </repository>
+        <repository>
+            <id>alimaven</id>
+            <name>aliyun maven</name>
+            <url>http://maven.aliyun.com/nexus/content/groups/public/</url>
+        </repository>
+        <repository>
+            <id>central</id>
+            <url>http://repo1.maven.org/maven2/</url>
+        </repository>
+        <repository>
+            <id>backup</id>
+            <url>http://repo2.maven.org/maven2/</url>
+        </repository>
+    </repositories>
+
+</project>
