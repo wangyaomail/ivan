@@ -3,11 +3,7 @@ awesome java architectures
 
 ### used for:
 - my java lecture final projects presentation
-
-## packages
-
-### ivan-jsp-mysql
-- basic jsp+mysql project
+- poetry dev
 
 ## License
 [MIT](http://opensource.org/licenses/MIT)
