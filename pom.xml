@@ -6,7 +6,7 @@
     <modelVersion>4.0.0</modelVersion>
     <groupId>cn.dendarii</groupId>
     <artifactId>ivan</artifactId>
-    <version>0.1</version>
+    <version>0.2</version>
 
     <packaging>pom</packaging>
     <name>ivan</name>
@@ -22,6 +22,7 @@
         <module>ivan-2-springboot</module>
         <module>ivan-3-springboot-mongo</module>
         <module>ivan-4-poetry</module>
+        <module>ivan-5-test</module>
     </modules>
 
     <properties>
