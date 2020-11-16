@@ -14,7 +14,7 @@
         <javadoc.skip>true</javadoc.skip>
         <javasrc.skip>true</javasrc.skip>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-        <jetty.version>9.4.23.v20191118</jetty.version>
+        <jetty.version>9.4.34.v20201102</jetty.version>
     </properties>
 
     <repositories>
